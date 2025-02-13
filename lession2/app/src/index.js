@@ -10,7 +10,7 @@ import Form from './formB';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/*<App />*/}
     {/*  <Student />*/}
     {/*  <Card />*/}
     {/*  <Form />*/}

@@ -38,18 +38,20 @@ function Student() {
         <div>
             <div>
                 <h1 className="head">Students</h1>
-                <tr>
-                    <th>Company</th>
-                    <th>Contact</th>
-                    <th>Country</th>
-                </tr>
-                {students.map(student => (
+                <table>
                     <tr>
-                        <td>{student.company}</td>
-                        <td>{student.contact}</td>
-                        <td>{student.country}</td>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
                     </tr>
-                ))}
+                    {students.map(student => (
+                        <tr>
+                            <td>{student.company}</td>
+                            <td>{student.contact}</td>
+                            <td>{student.country}</td>
+                        </tr>
+                    ))}
+                </table>
             </div>
         </div>
     );

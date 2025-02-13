@@ -48,15 +48,3 @@ const updateQuantity = (id, newQuantity) => {
 updateQuantity(1, 3);
 console.log("\nSau khi cập nhật số lượng Laptop xuống 3:");
 displayProducts();
-
-
-
-
-
-
-
-
-
-
-
-  
