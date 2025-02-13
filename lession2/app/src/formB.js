@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Card from "./cardProfile";
 
 
-function Form(){
+function LoginForm(){
     return (
         <div className="container d-flex align-items-center text-center">
             <div className="form-signin">
@@ -35,4 +35,4 @@ function Form(){
 }
 
 
-export default Form;
+export default LoginForm;
